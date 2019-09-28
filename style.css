@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background: #F5F4EF;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000305;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+a{
+color:#c74350
+transition: color .2s linear, 
+        background-color.4s linear;
+        padding: 0 1px;
+}
+a:hover,
+a:focus,
+a :active{
+    color:#fff;
+    background-color: #c74350;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 900px;
+    width 96%;
+    margin: 0 auto;
+
+}
+section{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+}
+header{
+    padding: 30px 0 10px 0;
+}
+
+h2{
+
+    font-size: 24px;
+    color: deeppink;
+    font-weight: normal;
+    margin: 0;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 10 px 0 0 ;
+}
+
+h3 a {
+    text-decoration: none;
+    color: #000305;
+}
+h4{
+    font-size: 20;
+    font-weight: normal;
+}
+h4 a{
+    font-size: 20px;
+    color: #000305;
+    font-weight: normal;
+p{
+    margin: 0;
+}
+}
+.title
+.subtitle{
+header a {
+display: block;
+color: #000305;
+text-decoration:none
+}
+header a:hover,
+header a:focus,
+header a:active{
+    background-color: rgba(0,0,0,0)
+    color:#c74350;
+}
+
+.title{
+font-size: 50px;
+}
+.subtitle{
+    font-size: 18px;
+}
+.articles arcticle{
+    padding: 0 0 10 px
+}
+
+
+.articles arcticle: not(:last-of-type{
+    border-bottom: 1px solid red;
+}
+.articles arcticle: not(:first-of-type{
+    border-top: 1px solid red;
+}*/
+.articles article + article{
+    border-top: 1px solid #eeee;
+}
+.nav{
+    display: inline-block;
+    padding: 0;
+    list-style: none;
+}
+.nav li{
+    border-bottom: 1px solid #ffff;
+}
+
+
+
+.nav a {
+    display: inline-block;
+    padding: 5px;
+    text-decoration: none;
+    width: 100%;
+    color: #000305;
+}
+.nav a:hover,
+.nav a:focus,
+.nav a:active{
+color: #F5F4EF;
+}
+footer section{
+    display: flex;
+}
+footer section div:first-child{
+    width: 40%
+}
+footer section h4 {
+ margin: 0;
+line-height: 1;
+}
+.copyright{
+    text-align: right;
+}
+.flex-row {
+display: flex;
+flex-direction: row-reverse;
+}
+aside{
+flex: 1 0 auto;
+padding-right: 30px;
+}
